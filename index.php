@@ -1,3 +1,6 @@
+<?php 
+$sator_square = 'SATOR AREPO TENET OPERA ROTAS';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +10,6 @@
     <title>BadWords</title>
 </head>
 <body>
-    
+    <h1><?php echo $sator_square ?></h1>
 </body>
 </html>
