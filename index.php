@@ -2,7 +2,8 @@
 $word = strtoupper($_GET["word"]); 
 $sator_square = 'SATOR AREPO TENET OPERA ROTAS';
 
-$sator_square = str_replace($word, '***', $sator_square);
+$sator_square = str_replace($word, '*****', $sator_square);
+$sator_length = strlen($sator_square);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,8 +14,7 @@ $sator_square = str_replace($word, '***', $sator_square);
     <title>BadWords</title>
 </head>
 <body>
-
-
     <h1><?php echo $sator_square ?></h1>
+    <em>La lunghezza del paragrafo è: <?php echo $sator_length?> caratteri.</em>
 </body>
 </html>
